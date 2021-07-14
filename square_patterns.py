@@ -17,7 +17,7 @@ def squareBorder(n):
 
 def squareBorderUsingOnlyOneLoop(n):
     for rows in range(0, n):
-        print("*", end=" ")
+        print("* ", end="")
         if rows == 0 or rows == n-1:
             print("* "*(n-2), end="")
         else:
